@@ -26,12 +26,7 @@
 
   // The top-level namespace. All public Backbone classes and modules will
   // be attached to this. Exported for both CommonJS and the browser.
-  var Backbone;
-  if (typeof exports !== 'undefined') {
-    Backbone = exports;
-  } else {
-    Backbone = root.Backbone = {};
-  }
+  var Backbone = root.Backbone = {};
 
   // Current version of the library. Keep in sync with `package.json`.
   Backbone.VERSION = '0.9.9';
