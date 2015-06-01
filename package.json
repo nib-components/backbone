@@ -1,0 +1,9 @@
+{
+  "name": "@nib-components/backbone",
+  "version": "0.9.9",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-components/backbone.git"
+  }
+}
